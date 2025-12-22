@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        rails: ["8.0", "7.2", "7.1", "7.0", "6.1"]
+        rails: ["8.1", "8.0", "7.2", "7.1", "7.0", "6.1"]
         ruby: ["3.4", "3.3", "3.2", "3.1"]
         exclude:
           # Rails >= 8.0 requires Ruby 3.2
