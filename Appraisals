@@ -63,3 +63,18 @@ appraise "rails8.0" do
   gem "thruster"
   gem "minitest", "~> 5.27"
 end
+
+appraise "rails8.1" do
+  gem "bcrypt"
+  gem "brakeman"
+  gem "bundler-audit"
+  gem "kamal"
+  gem "minitest", "~> 5.27"
+  gem "puma"
+  gem "rails", "~> 8.1.0"
+  gem "rubocop-rails-omakase"
+  gem "solid_cache"
+  gem "solid_queue"
+  gem "sqlite3", ">= 2.1"
+  gem "thruster"
+end
