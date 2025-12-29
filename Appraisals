@@ -9,6 +9,7 @@ appraise "rails6.1" do
   gem "spring", "!= 2.1.1"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "sqlite3", "~> 1.4"
+  gem "minitest", "~> 5.27"
 end
 
 appraise "rails7.0" do
@@ -22,6 +23,7 @@ appraise "rails7.0" do
   gem "spring", "!= 2.1.1"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "sqlite3", "~> 1.4"
+  gem "minitest", "~> 5.27"
 end
 
 appraise "rails7.1" do
@@ -32,6 +34,7 @@ appraise "rails7.1" do
   gem "spring", "!= 2.1.1"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "sqlite3", "~> 1.4"
+  gem "minitest", "~> 5.27"
 end
 
 appraise "rails7.2" do
@@ -42,6 +45,7 @@ appraise "rails7.2" do
   gem "spring", "!= 2.1.1"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "sqlite3", "~> 1.4"
+  gem "minitest", "~> 5.27"
 end
 
 appraise "rails8.0" do
@@ -55,6 +59,22 @@ appraise "rails8.0" do
   gem "solid_queue"
   gem "spring", "!= 2.1.1"
   gem "spring-watcher-listen", "~> 2.0.0"
+  gem "sqlite3", ">= 2.1"
+  gem "thruster"
+  gem "minitest", "~> 5.27"
+end
+
+appraise "rails8.1" do
+  gem "bcrypt"
+  gem "brakeman"
+  gem "bundler-audit"
+  gem "kamal"
+  gem "minitest", "~> 5.27"
+  gem "puma"
+  gem "rails", "~> 8.1.0"
+  gem "rubocop-rails-omakase"
+  gem "solid_cache"
+  gem "solid_queue"
   gem "sqlite3", ">= 2.1"
   gem "thruster"
 end
