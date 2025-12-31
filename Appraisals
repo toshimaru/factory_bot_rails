@@ -28,24 +28,22 @@ end
 
 appraise "rails7.1" do
   gem "byebug"
-  gem "listen", "~> 3.2"
+  gem "error_highlight"
+  gem "minitest", "~> 5.27"
   gem "puma", "~> 6.0"
   gem "rails", "~> 7.1.0"
-  gem "spring", "!= 2.1.1"
-  gem "spring-watcher-listen", "~> 2.0.0"
+  gem "rubocop-rails-omakase"
   gem "sqlite3", "~> 1.4"
-  gem "minitest", "~> 5.27"
 end
 
 appraise "rails7.2" do
+  gem "brakeman"
   gem "byebug"
-  gem "listen", "~> 3.2"
+  gem "minitest", "~> 5.27"
   gem "puma", "~> 6.0"
   gem "rails", "~> 7.2.0"
-  gem "spring", "!= 2.1.1"
-  gem "spring-watcher-listen", "~> 2.0.0"
+  gem "rubocop-rails-omakase"
   gem "sqlite3", "~> 1.4"
-  gem "minitest", "~> 5.27"
 end
 
 appraise "rails8.0" do
